@@ -141,3 +141,14 @@ planning : 1. Networking
            2. Naming convention
            3. Location ( EAST US lowest price)
            4. Pricing ( pay as you go, Reserved instance)
+
+#~ Availablility set :
+#~ having more than one instance at any time. so this instance can exists in multiple FD's 
+#~ , this would result in high avaliability of 
+
+
+(Virtual machine scale set)Deploying Vm scale sets
+- Vertical Scaling
+- Horizontal Scaling
+
+VM scale sets is like auto scaling in AWS.
