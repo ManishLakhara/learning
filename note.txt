@@ -1,0 +1,106 @@
+Tasks :
+
+How to scale instance beased on requirement?
+Scaling compute instance in GCP
+ -> instance group
+ -> Testing Autoscaling with CPU load (stress command)
+
+How do we manage incoming traffic?
+
+ -> network service 
+ -> load balancing
+
+Deployed simple application with autoscaling and load balancing in GCP.
+
+Database connection in GCP
+
+Databases we have: 
+ -> cloud sql
+         ->MySQL
+         ->PostgresSQL
+         ->SQL server
+  -> cloud spanner
+  -> Alloy DB for PostgreSQL
+  -> Cloud Bigtable
+
+Google Storage:
+-> cloud storage.
+        -> GCP storage.(Bucker)
+        -> Storage classes:
+                ->standard storage
+                ->Nearline storage
+                ->coldline storage
+                ->Archive storage
+Building API in GCP:
+-> Apigee in GCP
+         -> Apigee edgeff
+Microservice architecher
+ -> pub/sub 
+ -> subscription
+container orchestration in GCP
+ -> GCP (GKE)
+
+
++++++++++++++++++++++++++++++
+=============================
++++++++++++++++++++++++++++++
+
+Azure adminstration Admin
+    -> Azure Active directory
+    -> Azure Active drectory domain service
+    -> Directory joins 
+  -> Role Based Access control
+         ->Role Assignment
+                -> The Principle of Least Privilege
+Role Based Access Control
+          -> build in roles and custom roles
+          -> 2 types of roles RBAC role and Active directory role.
+
+resource locks
+       -> Avoid accidental changes
+       -> inheritance
+       -> Read-only locks
+       -> delete locks
+in Azure locks can be applied 
+->at subscription level
+-> resource level
+-> resource group level
+this locks are 2 types 
+ -> delete lock (not allow delete to resource under them or resource if applied on single resource bt we can modify them)
+ -> Read only (This lock only allow read only we can't modify resource on whom this are applied)
+
+Analyzing cost in Azure:
+->Azure reserved instance
+->Azure Hybrid benedit (AHUB)
+->Credits And Regions
+
+Azure Policy:
+->Definition(JSON documentation)
+->Scope
+->Assigment
+->Compliance
+->Usecase:
+   ->Allowed Resource types
+   ->Allowed Virtual machine SKUs
+   -> Allowed location
+   -> Require Tags
+   -> Inherit Tags
+   -> Allowed resource group location
+ 
+Azure Initiative
+ -> Channing these policy in sequence order to make and then assigning them as an single unit, This process is known as Azure Initiative.
+["This is Mind Blowing"]
+
+Virtual Networks
+-?> Represenatation of cloud network
+-?> Dedicated instance
+-?> Hybrid scenarios
+-?> Connectivity between Azure services
+
+Private IP addresses
+private ip addresses are used in connection within virtual network 
+while public ip address is used in connection with internet outside
+
+ 
+
+
