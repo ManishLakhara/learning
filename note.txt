@@ -101,6 +101,43 @@ Private IP addresses
 private ip addresses are used in connection within virtual network 
 while public ip address is used in connection with internet outside
 
- 
+DNS Zones
+-?> used in DNS resolution on xxx.microsoft.org DNS resolution
 
+ Private DNS Zones 
+ -?> this service is used for name resolution only. 
+ -?> this service don't deal with establishing connection between them.
 
+Network Security Groups
+ -/> Filter traffic 
+ -/> Rule set
+ -/> Association
+ -/> Evaluation
+NSG at subnet level subnet will filter network 
+NSG at VM.
+inbound traffic: source -> Subnet NSG -> Network interface NSG
+Outbound traffic: VM -> Network interface NSG -> Subnet NSG
+
+Azure Firewall
+- Highly available and scalable 
+- Redundancy
+- Multiple types of rules
+- Threat Intelligence
+- Public IP support
+
+Private Links
+Private Links are used in setting up connection between on primises service.
+example : when using paas service on Azure(Azure SQL) and our application is running on premises setup 
+Now, we want connection to be established between them. In this case we use Private Link.
+
+Note: When ever we create an VM we also create 2 other resources. 
+They are: 
+       1. VM
+       2. Public IP
+       3. virtual Network ( If already on created )
+
+Virtual Machine : 
+planning : 1. Networking
+           2. Naming convention
+           3. Location ( EAST US lowest price)
+           4. Pricing ( pay as you go, Reserved instance)
